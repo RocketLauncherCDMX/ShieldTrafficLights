@@ -1,4 +1,5 @@
-# TrafficLights Shield
+
+[pinout.pdf](https://github.com/user-attachments/files/20723446/pinout.pdf)
 
 **TrafficLights Shield** es un shield para Arduino diseñado como tarjeta de aprendizaje que simula un cruce de semáforo.  
 Ideal para principiantes en Arduino, permite controlar semáforos, LEDs de señalización, botones, sonido y comunicación Bluetooth.
