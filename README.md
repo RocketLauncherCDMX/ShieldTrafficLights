@@ -14,7 +14,6 @@ Ideal para principiantes en Arduino, permite controlar semáforos, LEDs de seña
 - Biblioteca de fácil uso con ejemplos incluidos
 
 ### Conexión de pines
-![Pinout TrafficLights Shield](docs/pinout.png)
 
 | Shield               | Arduino UNO   | Descripción                      |
 |----------------------|---------------|----------------------------------|
@@ -36,65 +35,21 @@ Ideal para principiantes en Arduino, permite controlar semáforos, LEDs de seña
 
 ### Instalación de la biblioteca
 
-1. Copia la carpeta `library` dentro de tu carpeta `Arduino/libraries/`.
+Procedimiento 1
+
+1. Copia la carpeta `RocketLauncher_trafficShield` dentro de tu carpeta `Arduino/libraries/`.
 2. Reinicia el IDE de Arduino.
 3. Verás la biblioteca **TrafficLights** disponible en **Sketch → Include Library**.
 
+Procedimiento 2
+
+1. En Arduino, da click en el menú Programa/Incluir Libreria/Añadir Biblioteca .ZIP
+2. Selecciona la carpeta comprimida RocketLauncher_trafficShield.zip
+
 ### Ejemplos incluidos
 
-- **01_TrafficCrossWithSound**: Cruce de semáforos con sonido
-- **02_PedestrianCrossing**: Semáforo para peatones usando LEDs azules y Serial
-- **03_RGBWithButtons**: Control de LEDs RGB con botones
-- **04_SemaforosRGB**: Semáforos usando LEDs RGB
-- **05_MemoryGame**: Juego de memoria con todos los LEDs y botones
+Una vez instalada o copiada la libreria, elige tu Arduino UNO o MEGA, ve a la pestaña Archivo/Ejemplos/RocketLauncher_trafficShield/examples
 
----
-
-## Pinout
-
-![Diagrama de Pinout](docs/pinout.png)
-
-*(Imagen arriba: diagrama claro de conexiones shield → Arduino UNO.)*
-
----
-
-## Infografía
-
-![Infografía TrafficLights Shield](docs/infographic.png)
-
-*(Infografía estilo ilustración resaltando semáforos, LEDs, botones, Bluetooth y buzzer.)*
-
----
-
-## Tutorial de uso (docs/tutorial.md)
-
-```markdown
-# Tutorial de uso con Arduino UNO y MEGA
-
-## 1. Montaje físico
-1. Inserta el TrafficLights Shield sobre tu Arduino UNO o MEGA.
-2. Conecta Arduino a tu PC vía USB.
-
-## 2. Primer ejemplo: Cruce de semáforos con sonido
-1. Abre el IDE de Arduino.
-2. Ve a **File → Examples → TrafficLights → 01_TrafficCrossWithSound**.
-3. Sube el sketch.  
-4. Observa cómo alternan las luces de los semáforos y suena el buzzer.
-
-## 3. Peatones y Serial
-1. Abre **02_PedestrianCrossing**.
-2. Conecta consola Serial a 115200 baudios.
-3. Pulsa **Botón A** para iniciar fase peatonal (LED azul encendido + mensaje Serial).
-4. Pulsa de nuevo para volver al flujo vehicular.
-
-## 4. Control de color con botones
-- **03_RGBWithButtons**: cada botón cambia el color del LED RGB correspondiente.
-
-## 5. Semáforos RGB
-- **04_SemaforosRGB**: reemplaza luces fijas por efectos RGB.
-
-## 6. Juego de memoria
-- **05_MemoryGame**: el shield muestra una secuencia de colores y debes repetirla usando botones.
-
-¡Explora los ejemplos, ajusta tiempos y diviértete aprendiendo Arduino!
-
+- **rgbLedsButtons**: Muestra como controlar los LEDs RGB a traves de los botones
+- **simpleCurceDeSemaforo**: Semáforos de la intersección de calles
+- **simpleRgbLeds**: Control de LEDs RGB simple
