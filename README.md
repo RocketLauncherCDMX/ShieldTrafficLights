@@ -37,14 +37,18 @@ Ideal para principiantes en Arduino, permite controlar semáforos, LEDs de seña
 
 Procedimiento 1
 
+1. Descarga en el siguiente enlace la biblioteca en formato .zip
+   [Biblioteca TrafficShields para Arduino]([https://github.com/tu_usuario](https://github.com/RocketLauncherCDMX/ShieldTrafficLights/blob/04bf392e7ac1b54b8d41de280dd4c6402af8ec12/RocketLauncher_trafficShield.zip)).
+1. En Arduino, da click en el menú Programa/Incluir Libreria/Añadir Biblioteca .zip
+2. Selecciona la carpeta comprimida RocketLauncher_trafficShield.zip
+
+Procedimiento 2
+
 1. Copia la carpeta `RocketLauncher_trafficShield` dentro de tu carpeta `Arduino/libraries/`.
 2. Reinicia el IDE de Arduino.
 3. Verás la biblioteca **TrafficLights** disponible en **Sketch → Include Library**.
 
-Procedimiento 2
 
-1. En Arduino, da click en el menú Programa/Incluir Libreria/Añadir Biblioteca .ZIP
-2. Selecciona la carpeta comprimida RocketLauncher_trafficShield.zip
 
 ### Ejemplos incluidos
 
