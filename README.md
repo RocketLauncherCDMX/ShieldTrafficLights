@@ -39,7 +39,7 @@ Procedimiento 1
 
 1. Descarga en el siguiente enlace la biblioteca en formato .zip
 ```
-   [Biblioteca TrafficShields para Arduino](https://github.com/RocketLauncherCDMX/ShieldTrafficLights/releases/download/v1.0.0/RocketLauncher_trafficShield.zip)\
+https://github.com/RocketLauncherCDMX/ShieldTrafficLights/releases/download/v1.0.0/RocketLauncher_trafficShield.zip
 ```
 1. En Arduino, da click en el menú Programa/Incluir Libreria/Añadir Biblioteca .zip
 2. Selecciona la carpeta comprimida RocketLauncher_trafficShield.zip
